@@ -1,0 +1,8 @@
+CreateInsert(schema, table, columns) ::= <<
+INSERT INTO [<schema>].[<table>] (
+    <columns:{c | [<c.Name>]}; separator=",\r\n", anchor>
+    )
+VALUES (
+    <columns:{c | <c.SampleData>}; separator=",\r\n", anchor>
+    );
+>>
