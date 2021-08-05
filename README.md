@@ -1,5 +1,7 @@
 # README
 
+Generates a SQL INSERT statement for a table with random sample data. Does not handle all scenarios. Ignores nullable columns. Feel free to modify you its missing something.
+
 ```
 ScriptGen 1.0.0
 Copyright (C) 2021 ScriptGen
